@@ -1,20 +1,20 @@
 fun main() {
 
     val workout = Workout(
-        "Weight Loss", 8, "Fat burning program",
-        "HIIT", 30, "High intensity workout", "High"
+        "Itirilen Kilo", 8, "Yag Eritme",
+        "HIIT", 30, "Tezyiqli idman", "Yuksek"
     )
 
     workout.displayProgram()
 
-    val exercise = Exercise("Running", 20, "Cardio", 200.0)
+    val exercise = Exercise("Qacir", 30, "Kardio", 100.0)
     exercise.performExercise()
 
-    val cardio = CardioExercise("Cycling", 25, "Outdoor cardio", 300.0)
+    val cardio = CardioExercise("Velo", 25, "Çöldə vorkout", 200.0)
     cardio.performExercise()
 
-    val meal = Meal("Salad", "Healthy meal", 250.0)
-    meal.logMeal("Salad")
+    val meal = Meal("Salat", "Saglamliq üçün yemək", 250.0)
+    meal.logMeal("Salat")
 
     val caloriesNeeded = meal.calculateCalories(70.0, 175.0, 22, "moderate")
     println("Calories needed: $caloriesNeeded")
