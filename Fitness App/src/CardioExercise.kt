@@ -6,6 +6,6 @@ class CardioExercise(
 ) : Exercise(name, duration, description, calories) {
 
     override fun performExercise() {
-        println("Cardio Exercise burning high calories!")
+        println("Cardio Etdin!")
     }
 }
